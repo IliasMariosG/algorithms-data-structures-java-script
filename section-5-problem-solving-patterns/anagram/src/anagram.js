@@ -21,10 +21,6 @@ const Anagram = class {
       }
     });
     for (let char in frequencyOne) {
-      // console.log(char)
-      // console.log(frequencyTwo[char])
-      // console.log(!char in frequencyTwo)
-
       if ((!char in frequencyTwo) || (frequencyTwo[char] !== frequencyOne[char])){
           return false
       }
