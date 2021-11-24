@@ -24,5 +24,10 @@ describe('SumZero', () => {
 
       assert.deepStrictEqual(isSumZero(input), [-50, 50]);
     });
+    it('[-3, 1] returns undefined', () => {
+      let input = [-3, 1];
+
+      assert.deepStrictEqual(isSumZero(input), undefined);
+    });
   })
 })
