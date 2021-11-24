@@ -1,7 +1,7 @@
 "use strict"
 
 let isSumZero = (sortedArray) => {
-  return [-1, 1];
+  return [sortedArray[0], sortedArray[sortedArray.length-1]];
 }
 
 exports.isSumZero = isSumZero;

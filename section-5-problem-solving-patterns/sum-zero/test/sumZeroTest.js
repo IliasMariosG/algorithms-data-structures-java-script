@@ -9,5 +9,10 @@ describe('SumZero', () => {
 
       assert.deepStrictEqual(isSumZero(input), [-1, 1]);
     });
+    it('[-2, 2] returns [-2, 2]', () => {
+      let input = [-2, 2];
+
+      assert.deepStrictEqual(isSumZero(input), [-2, 2]);
+    });
   })
 })
