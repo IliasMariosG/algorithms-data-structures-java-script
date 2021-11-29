@@ -1,5 +1,16 @@
 {
   "devDependencies": {
     "mocha": "^9.1.3"
+  },
+  "mocha": {
+    "spec": ["anagram/test/*.js", "multiple-pointers/**/**/test/*.js"]
+  },
+  "scripts":{
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IliasMariosG/algorithms-data-structures-java-script.git"
   }
+
 }
