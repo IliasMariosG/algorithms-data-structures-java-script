@@ -9,7 +9,7 @@ let isSumZero = (sortedArray) => {
       rightIndex--
     } else {
       leftIndex++
-    };
+    }
   }
   return undefined
 }
