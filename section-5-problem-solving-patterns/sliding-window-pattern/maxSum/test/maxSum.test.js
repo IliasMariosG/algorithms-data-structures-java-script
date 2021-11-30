@@ -39,5 +39,11 @@ describe('MaxSum', () => {
       
       assert.deepStrictEqual(maxSumInstance.findMaxSum(numbers, count), 12)
     });
+    it('[] returns undefined', () => {
+      let numbers = [];
+      let count = 100;
+      
+      assert.deepStrictEqual(maxSumInstance.findMaxSum(numbers, count), null)
+    });
   })
 })

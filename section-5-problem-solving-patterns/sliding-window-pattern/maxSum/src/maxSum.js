@@ -2,6 +2,9 @@
 
 const MaxSum = class {
   findMaxSum(numbers, count) {
+    if (numbers.length == 0) {
+      return null;
+    }
     let maximumSum = -Infinity;
     for (let i = 0; i < numbers.length - count + 1; i++) {
       let temporarySum = 0;
