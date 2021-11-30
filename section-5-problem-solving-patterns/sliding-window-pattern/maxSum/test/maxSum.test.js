@@ -1,7 +1,7 @@
 'use strict ';
 
 let assert = require('assert');
-let { MaxSum } = require('../src/maxSum.js')
+let { MaxSum } = require('../src/maxSumNaive.js')
 // The function accepts an array of integers and a number.
 // It calculates the the maximum sum of n consecutive elements in the array
 // and returns that sum 
