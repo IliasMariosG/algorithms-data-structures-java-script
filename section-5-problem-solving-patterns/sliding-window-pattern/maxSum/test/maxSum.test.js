@@ -10,10 +10,16 @@ describe('MaxSum', () => {
   let maxSumInstance = new MaxSum();
   describe('maxSum function' , () => {
     it('[1] returns 1', () => {
-      let numbers = [3];
+      let numbers = [1];
       let count = 1;
       
-      assert.deepStrictEqual(maxSumInstance.findMaxSum(numbers, count), 3)
+      assert.deepStrictEqual(maxSumInstance.findMaxSum(numbers, count), 1)
+    });
+    it('[1, 2, -1, 10, -53] returns 10', () => {
+      let numbers = [1, 2, -1, 10, -53];
+      let count = 1;
+      
+      assert.deepStrictEqual(maxSumInstance.findMaxSum(numbers, count), 10)
     });
   })
 })
