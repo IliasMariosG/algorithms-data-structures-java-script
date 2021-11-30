@@ -3,10 +3,14 @@
 const MaxSum = class {
   findMaxSum(numbers, count) {
     let maximumSum = -Infinity;
-    for (let i=0; i <= numbers.length - count; i++) {
-      if (numbers[i] > maximumSum) {
-        maximumSum = numbers[i]
-      } 
+    for (let i = 0; i < numbers.length - count + 1; i++) {
+      let temporarySum = 0;
+      for (let j = 0; j < count; j++) {
+        temporarySum += numbers[i+j]
+        if (temporarySum > maximumSum) {
+          maximumSum = temporarySum
+        }
+      }
     }
     return maximumSum
   }

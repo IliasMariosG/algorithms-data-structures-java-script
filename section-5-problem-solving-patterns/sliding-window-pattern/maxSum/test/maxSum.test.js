@@ -21,5 +21,11 @@ describe('MaxSum', () => {
       
       assert.deepStrictEqual(maxSumInstance.findMaxSum(numbers, count), 10)
     });
+    it('[1, 2] returns 3', () => {
+      let numbers = [1, 2];
+      let count = 2;
+      
+      assert.equal(maxSumInstance.findMaxSum(numbers, count), 3)
+    });
   })
 })
