@@ -12,6 +12,8 @@ Contents
 
 - [Multiple Pointers](https://github.com/IliasMariosG/algorithms-data-structures-java-script/tree/main/section-5-problem-solving-patterns/multiple-pointers/)
 
+  - [Average Pair](https://github.com/IliasMariosG/algorithms-data-structures-java-script/tree/main/section-5-problem-solving-patterns/multiple-pointers/average-pair)
+
   - [Sum Zero](https://github.com/IliasMariosG/algorithms-data-structures-java-script/tree/main/section-5-problem-solving-patterns/multiple-pointers/sum-zero)
 
   - [Count Unique Values](https://github.com/IliasMariosG/algorithms-data-structures-java-script/tree/main/section-5-problem-solving-patterns/multiple-pointers/count-unique-values)
