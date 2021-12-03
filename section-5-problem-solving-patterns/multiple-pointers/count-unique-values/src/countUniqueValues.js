@@ -1,16 +1,20 @@
-'use strict'
+'use strict';
 
-let countUniqueValues = (sortedArray) => {
-  let uniqueValuesCounter = {};
+const countUniqueValues = (sortedArray) => {
+
+  const uniqueValuesCounter = {};
   for (let index in sortedArray) {
-    let number = sortedArray[index]
-    if (uniqueValuesCounter[number]) {
-      continue;
-    } else {
-      uniqueValuesCounter[number] = 1
+
+    let number = sortedArray[index];
+    if (!uniqueValuesCounter[number]) {
+
+      uniqueValuesCounter[number] = 1;
+
     }
+
   }
-  return Object.values(uniqueValuesCounter).length
-}
+  return Object.values(uniqueValuesCounter).length;
+
+};
 
 exports.countUniqueValues = countUniqueValues;
