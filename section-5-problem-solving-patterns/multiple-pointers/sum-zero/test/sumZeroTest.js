@@ -1,6 +1,6 @@
-"use strict"
+'use strict';
 let assert = require('assert');
-let { isSumZero } = require('../src/sumZero.js')
+let { isSumZero } = require('../src/sumZero.js');
 
 describe('SumZero', () => {
   describe('isSumZero function', () => {
@@ -43,12 +43,12 @@ describe('SumZero', () => {
     it('[0] returns undefined', () => {
       input = [0];
 
-      assert.deepStrictEqual(isSumZero(input), undefined)
-    })
+      assert.deepStrictEqual(isSumZero(input), undefined);
+    });
     it('[-2, 0, 1, 3] returns undefined', () => {
       input = [-2, 0, 1, 3];
 
-      assert.deepStrictEqual(isSumZero(input), undefined)
-    })
-  })
-})
+      assert.deepStrictEqual(isSumZero(input), undefined);
+    });
+  });
+});
