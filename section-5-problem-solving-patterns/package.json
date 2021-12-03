@@ -7,12 +7,10 @@
     "spec": [
       "anagram/test/*.js",
       "multiple-pointers/**/**/test/*.js",
+      "multiple-pointers/**/**/test/*.test.js",
       "sliding-window-pattern/**/test/*.test.js"
     ],
-    "ignore": [
-      "anagram/test/*.js",
-      "multiple-pointers/**/**/test/*.js"
-    ]
+    "ignore": []
   },
   "scripts": {
     "test": "mocha"
